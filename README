@@ -1,0 +1,6 @@
+change_grade.py
+
+Takes two command line arguments: a string and a number, and reads lines formatted like 'jshmoe,Shmoe,Joe,87' from standard input.  If the string supplied on the command line is found anywhere on a line of input, then the grade on that line is changed to that number and the modified line is printed to standard out.  Lines that do not match the string are printed back to standard out unchanged.
+
+Example usage:
+./change_grade.py Nye 80 <files/grades.csv
